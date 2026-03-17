@@ -55,21 +55,21 @@ export default function Contact() {
               <span className="info-icon">📍</span>
               <div>
                 <strong>Office</strong>
-                <br />1234 Congress Ave, Suite 400<br />Austin, TX 78701
+                <br />Round Rock, TX 78681
               </div>
             </li>
             <li>
               <span className="info-icon">📞</span>
               <div>
                 <strong>Phone</strong>
-                <br />(512) 555-0190
+                <br />(512) 919-6250
               </div>
             </li>
             <li>
               <span className="info-icon">✉️</span>
               <div>
                 <strong>Email</strong>
-                <br />info@roundrockpm.com
+                <br />manager@roundrockpm.com
               </div>
             </li>
             <li>

@@ -1,21 +1,15 @@
 const team = [
   {
-    name: 'Sarah Mitchell',
+    name: 'Rajul Amin',
     role: 'Founder & CEO',
-    detail: '15+ years in Austin real estate. Licensed broker and Certified Property Manager (CPM).',
-    avatar: 'SM',
+    detail: '18+ years in Austin real estate. Licensed realtor and Property Manager.',
+    avatar: 'RA',
   },
   {
-    name: 'James Rodriguez',
+    name: 'Sejal Amin',
     role: 'Director of Operations',
-    detail: 'Licensed property manager overseeing day-to-day operations and our trusted vendor network.',
-    avatar: 'JR',
-  },
-  {
-    name: 'Emily Chen',
-    role: 'Client Relations Manager',
-    detail: 'Tenant placement specialist dedicated to keeping both owners and residents happy.',
-    avatar: 'EC',
+    detail: 'Licensed realtor and property manager overseeing day-to-day operations and our trusted vendor network.',
+    avatar: 'SA',
   },
 ];
 
@@ -49,7 +43,7 @@ export default function About() {
       {/* Stats */}
       <div className="card-grid stats-grid">
         {[
-          { value: '500+', label: 'Properties Managed' },
+          { value: '50+', label: 'Properties Managed' },
           { value: '98%', label: 'Tenant Retention Rate' },
           { value: '15 yrs', label: 'Austin Experience' },
           { value: '24 / 7', label: 'Emergency Support' },
