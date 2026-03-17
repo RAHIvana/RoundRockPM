@@ -114,6 +114,28 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.hero-logo-col {
+  flex-shrink: 0;
+}
+
+.hero-text-col {
+  flex: 1;
+}
+
+.hero-logo {
+  display: block;
+  max-width: 220px;
+  height: auto;
+  border-radius: 16px;
+  padding: 12px;
+}
+
 .hero h1 {
   font-size: 2.6rem;
   font-weight: 800;
@@ -409,4 +431,6 @@ body {
   .hero { padding: 2rem 1.25rem; }
   .hero h1 { font-size: 1.75rem; }
   .hero-sub { font-size: 0.95rem; }
+  .hero-inner { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+  .hero-logo { max-width: 160px; }
 }

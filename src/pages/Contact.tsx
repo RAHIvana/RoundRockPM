@@ -69,7 +69,7 @@ export default function Contact() {
               <span className="info-icon">✉️</span>
               <div>
                 <strong>Email</strong>
-                <br />info@austinpremierproperties.com
+                <br />info@roundrockpm.com
               </div>
             </li>
             <li>

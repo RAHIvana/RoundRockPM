@@ -27,7 +27,7 @@ export default function About() {
       {/* Story */}
       <h2>Our Story</h2>
       <p>
-        Founded in Austin, TX in 2010, Austin Premier Properties was born from a simple idea:
+        Founded in Austin, TX in 2010, Round Rock Property Management was born from a simple idea:
         property ownership should be rewarding, not stressful. We set out to build a company
         that treats every property as if it were our own — with the care, responsiveness, and
         financial discipline that owners truly deserve.

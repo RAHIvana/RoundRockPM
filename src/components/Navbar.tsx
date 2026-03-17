@@ -17,7 +17,7 @@ export default function Navbar({ current, onNavigate }: NavbarProps) {
   return (
     <nav className="navbar">
       <div className="nav-brand" onClick={() => onNavigate('home')}>
-        🏠 <span>Austin Premier Properties</span>
+        🏠 <span>Round Rock Property Management</span>
       </div>
       <ul className="nav-links">
         {navItems.map((item) => (
