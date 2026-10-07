@@ -1,0 +1,54 @@
+# Builds the static site in public/ and publishes it to GitHub Pages so the new
+# site can be reviewed at https://rahivana.github.io/RoundRockPM/ before it goes
+# anywhere near the live domain.
+#
+# Pages serves a project repo under /RoundRockPM/, so the build step rewrites the
+# site's absolute paths ("/assets/...") to relative ones. Nothing in public/ is
+# modified - the rewrite happens in a throwaway _site/ folder.
+#
+# Turn it on once: repo Settings -> Pages -> Source: "GitHub Actions".
+
+name: Preview site on GitHub Pages
+
+on:
+  push:
+    branches: [new-site]      # add "main" here when the new site becomes the real one
+  workflow_dispatch:           # or run it by hand from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build _site with relative paths
+        run: python tools/make_relative.py public _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

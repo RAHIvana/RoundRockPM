@@ -1,0 +1,370 @@
+{
+  "_comment": "Commercial office-warehouse spaces shown on commercial.html. Rates are base NNN per SF per month; NNN is additional.",
+  "updated": "2026-10-02",
+  "source": "Crexi lease listings",
+  "properties": [
+    {
+      "id": "cedar-park-720-bell",
+      "title": "2000 sq.ft. Office Warehouse Flex - 183, 183A, Cypress Creek",
+      "address": "720 S Bell Blvd, Cedar Park, TX 78613",
+      "county": "Williamson",
+      "property_type": "Industrial / flex office-warehouse condo park",
+      "building_class": "A",
+      "year_built": 2024,
+      "zoning": "LI (Light Industrial)",
+      "building_sf": 6000,
+      "clear_height_ft": 21,
+      "construction": "Premium all-sides masonry, spray-foam insulation",
+      "access": "24-hour",
+      "ideal_uses": [
+        "service contractors",
+        "e-commerce",
+        "local distribution",
+        "light manufacturing",
+        "R&D"
+      ],
+      "location_notes": "Near the intersection of US-183, 183-A Toll and Cypress Creek Rd. Easy ingress/egress for trucks and customers; good visibility.",
+      "rate_range_psf_month": [
+        1.5,
+        1.7
+      ],
+      "spaces": [
+        {
+          "unit": "Bldg-3, Unit B",
+          "status": "available",
+          "available": "2026-08-08",
+          "rentable_sf": 2000,
+          "office_sf": 400,
+          "warehouse_sf": 1600,
+          "rate_psf_month": [
+            1.5,
+            1.7
+          ],
+          "nnn_monthly_estimate": 1100,
+          "total_monthly_low": 4100.0,
+          "total_monthly_high": 4500.0,
+          "layout": "400 SF office suite (reception, 1 private office, ADA restroom) + 1,600 SF open warehouse. Office on its own 3-ton HVAC, warehouse on its own 5-ton HVAC (100% climate controlled). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": "1 x 12x14 ft motorized grade-level (drive-in)",
+          "restroom": "1 ADA-compliant",
+          "parking_spaces": "4-5 (listing shows 4.5)",
+          "lease_term": "Negotiable",
+          "combinable": "Listing says adjoining units can combine to 4,000 or 6,000 SF - confirm availability with Raju"
+        }
+      ]
+    },
+    {
+      "id": "leander-401-chitalpa",
+      "title": "New 2000SF Warehouse/Flex w/Office at 183, 183A & San Gabriel",
+      "address": "401 Chitalpa Street, Leander, TX 78641",
+      "county": "Williamson",
+      "property_type": "Office / Industrial flex",
+      "building_class": "A",
+      "year_built": 2026,
+      "zoning": "Industrial",
+      "building_sf": null,
+      "clear_height_ft": 21,
+      "construction": "Premium all-sides masonry, spray-foam insulation",
+      "access": null,
+      "ideal_uses": [],
+      "location_notes": "One block from US-183, 183-A Toll and San Gabriel Pkwy; directly accessible from the US-183A access road.",
+      "rate_range_psf_month": [
+        1.4,
+        1.5
+      ],
+      "spaces": [
+        {
+          "unit": "830",
+          "status": "available",
+          "available": "2026-08-10",
+          "rentable_sf": 2000,
+          "office_sf": 400,
+          "warehouse_sf": 1600,
+          "rate_psf_month": [
+            1.4,
+            1.5
+          ],
+          "nnn_monthly_estimate": null,
+          "total_monthly_low": 3800.0,
+          "total_monthly_high": 4000.0,
+          "layout": "400 SF office suite (reception, 1 private office, ADA restroom) + 1,600 SF open warehouse. Office on its own 3-ton HVAC, warehouse on its own 5-ton HVAC (100% climate controlled). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": "1 x 12x14 ft motorized grade-level with drive-in bay",
+          "restroom": "1 ADA-compliant private",
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": null
+        },
+        {
+          "unit": "840",
+          "status": "available",
+          "available": "2026-09-02",
+          "rentable_sf": 2000,
+          "office_sf": 400,
+          "warehouse_sf": 1600,
+          "rate_psf_month": [
+            1.4,
+            1.5
+          ],
+          "nnn_monthly_estimate": null,
+          "total_monthly_low": 3800.0,
+          "total_monthly_high": 4000.0,
+          "layout": "400 SF office suite (reception, 1 private office, ADA restroom) + 1,600 SF open warehouse. Office on its own 3-ton HVAC, warehouse on its own 5-ton HVAC (100% climate controlled). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": "1 x 12x14 ft motorized grade-level with drive-in bay",
+          "restroom": "1 ADA-compliant private",
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": "Listed as 2,000-4,000 SF; adjoining units combine to 4,000 or 6,000 SF"
+        },
+        {
+          "unit": "710",
+          "status": "available",
+          "available": "2026-09-02",
+          "rentable_sf": 2000,
+          "office_sf": 400,
+          "warehouse_sf": 1600,
+          "rate_psf_month": [
+            1.4,
+            1.5
+          ],
+          "nnn_monthly_estimate": null,
+          "total_monthly_low": 3800.0,
+          "total_monthly_high": 4000.0,
+          "layout": "400 SF office suite (reception, 1 private office, ADA restroom) + 1,600 SF open warehouse. Office on its own 3-ton HVAC, warehouse on its own 5-ton HVAC (100% climate controlled). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": "1 x 12x14 ft motorized grade-level with drive-in bay",
+          "restroom": "1 ADA-compliant private",
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": null
+        }
+      ]
+    },
+    {
+      "id": "austin-12112-anderson-mill",
+      "title": "2000/2400 sqft office warehouse space @620 - Anderson Mill",
+      "address": "12112 Anderson Mill Rd, Austin, TX 78726",
+      "county": "Travis",
+      "property_type": "Industrial flex / office-warehouse condo park",
+      "building_class": "A",
+      "year_built": 2019,
+      "zoning": "Industrial",
+      "building_sf": null,
+      "clear_height_ft": "21 per unit descriptions (building field says 18 - confirm)",
+      "construction": "Premium all-sides masonry, spray-foam insulation",
+      "access": "24-hour",
+      "ideal_uses": [
+        "service contractors",
+        "e-commerce",
+        "local distribution",
+        "light manufacturing"
+      ],
+      "location_notes": "1 block from the RM 620 / Anderson Mill Rd intersection (near Windy Terrace); easy routes to US-183 and RM 620.",
+      "rate_range_psf_month": [
+        1.3,
+        1.6
+      ],
+      "spaces": [
+        {
+          "unit": "Bldg-7, Unit C",
+          "status": "available",
+          "available": "2026-08-08",
+          "rentable_sf": 2000,
+          "office_sf": "400 (listing field shows 500 - confirm)",
+          "warehouse_sf": 1600,
+          "rate_psf_month": [
+            1.4,
+            1.6
+          ],
+          "nnn_monthly_estimate": 1000,
+          "total_monthly_low": 3800.0,
+          "total_monthly_high": 4200.0,
+          "layout": "400 SF office suite (reception, 1 private office, ADA restroom) + 1,600 SF open warehouse. Office on its own 3-ton HVAC, warehouse on its own 5-ton HVAC (100% climate controlled). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": null,
+          "restroom": null,
+          "parking_spaces": 4,
+          "lease_term": "Negotiable",
+          "combinable": null
+        },
+        {
+          "unit": "Bldg-3, Unit C",
+          "status": "available",
+          "available": "2026-08-08",
+          "rentable_sf": 2000,
+          "office_sf": 400,
+          "warehouse_sf": 1600,
+          "rate_psf_month": [
+            1.4,
+            1.6
+          ],
+          "nnn_monthly_estimate": 1000,
+          "total_monthly_low": 3800.0,
+          "total_monthly_high": 4200.0,
+          "layout": "400 SF office suite (reception, 1 private office, ADA restroom) + 1,600 SF open warehouse. Office on its own 3-ton HVAC, warehouse on its own 5-ton HVAC (100% climate controlled). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": null,
+          "restroom": null,
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": null
+        },
+        {
+          "unit": "Bldg-11, Unit B",
+          "status": "available",
+          "available": "2026-08-08",
+          "rentable_sf": 2400,
+          "office_sf": 500,
+          "warehouse_sf": 1900,
+          "rate_psf_month": [
+            1.3,
+            1.5
+          ],
+          "nnn_monthly_estimate": 1200,
+          "total_monthly_low": 4320.0,
+          "total_monthly_high": 4800.0,
+          "layout": "500 SF office suite with 3 separate offices, reception and ADA restroom (3-ton HVAC) + 1,900 SF open warehouse (5-ton HVAC). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": null,
+          "restroom": null,
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": null
+        },
+        {
+          "unit": "Bldg-11, Unit C",
+          "status": "available",
+          "available": "2026-08-08",
+          "rentable_sf": 2000,
+          "office_sf": 400,
+          "warehouse_sf": 1600,
+          "rate_psf_month": [
+            1.4,
+            1.6
+          ],
+          "nnn_monthly_estimate": 1000,
+          "total_monthly_low": 3800.0,
+          "total_monthly_high": 4200.0,
+          "layout": "400 SF office suite (reception, 1 private office, ADA restroom) + 1,600 SF open warehouse. Office on its own 3-ton HVAC, warehouse on its own 5-ton HVAC (100% climate controlled). 12x14 ft motorized grade-level roll-up door plus personnel door. Spray-foam insulation.",
+          "roll_up_door": null,
+          "restroom": null,
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": null
+        }
+      ]
+    },
+    {
+      "id": "leander-7696-183a",
+      "title": "2000 sqft office warehouse flex - 183, 183A, Crystal Falls",
+      "address": "7696 183A, Leander, TX 78641",
+      "county": "Williamson",
+      "property_type": "Light industrial flex / office-warehouse condo park",
+      "building_class": "A",
+      "year_built": 2021,
+      "zoning": "Industrial",
+      "building_sf": null,
+      "clear_height_ft": null,
+      "construction": "All-sides masonry, insulated, LED lighting",
+      "access": null,
+      "ideal_uses": [],
+      "location_notes": "One block west of 183-A & Crystal Falls Pkwy, behind Caliber Collision and the Valero gas station. Easy access to 183-A, US-183, Parmer Ln and Crystal Falls Pkwy.",
+      "rate_range_psf_month": [
+        1.2,
+        1.3
+      ],
+      "spaces": [
+        {
+          "unit": "Bldg-3, Unit A",
+          "status": "available",
+          "available": "2026-09-01",
+          "rentable_sf": 2000,
+          "office_sf": "~500 (21x24 ft)",
+          "warehouse_sf": "~1,500 (62x24 ft)",
+          "rate_psf_month": [
+            1.2,
+            1.3
+          ],
+          "nnn_monthly_estimate": null,
+          "total_monthly_low": 3600.0,
+          "total_monthly_high": 3800.0,
+          "layout": "Front: office, reception and private restroom (~500 SF). Back: ~1,500 SF warehouse with 18 ft eave height. Grade-level roll-up door at rear plus personnel door. Separate AC/heat for office and warehouse.",
+          "roll_up_door": "Grade-level, rear of warehouse (size unknown_ask_agent)",
+          "restroom": null,
+          "parking_spaces": 4,
+          "lease_term": "Negotiable",
+          "combinable": "Consecutive units allow up to 6,000 SF"
+        }
+      ]
+    },
+    {
+      "id": "leander-1304-leander-dr",
+      "title": "Brand new 1650 sqft - Leander 183, 183A, Crystal Falls",
+      "address": "1304 Leander Drive, Leander, TX 78641",
+      "county": "Williamson",
+      "property_type": "Office / Industrial flex",
+      "building_class": "A",
+      "year_built": 2026,
+      "zoning": "LI (Light Industrial)",
+      "building_sf": 6600,
+      "clear_height_ft": 19,
+      "construction": "Spray-foam insulation in warehouse walls and ceiling; exterior described as both 'all-sides metal' and 'all-masonry' - confirm",
+      "access": null,
+      "ideal_uses": [
+        "HVAC/electrical/plumbing contractors",
+        "e-commerce",
+        "sign shops",
+        "assembly",
+        "landscaping",
+        "pest control",
+        "parts distribution",
+        "specialty repair",
+        "high-end vehicle storage",
+        "hobby workshop"
+      ],
+      "location_notes": "Just off 183-A and Crystal Falls Pkwy; immediate access to Crystal Falls Pkwy, 183-A Toll and US-183. Serves Leander, Cedar Park and Liberty Hill.",
+      "rate_range_psf_month": [
+        1.46,
+        1.65
+      ],
+      "spaces": [
+        {
+          "unit": "210",
+          "status": "available",
+          "available": "2026-07-17",
+          "rentable_sf": 1650,
+          "office_sf": 300,
+          "warehouse_sf": 1350,
+          "rate_psf_month": [
+            1.46,
+            1.46
+          ],
+          "nnn_monthly_estimate": null,
+          "total_monthly_low": 3151.5,
+          "total_monthly_high": 3151.5,
+          "layout": "300 SF office suite with 2 private offices, reception and restroom (heated & air-conditioned) + 1,350 SF warehouse.",
+          "roll_up_door": "1 x 14x12 ft grade-level drive-in",
+          "restroom": null,
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": null
+        },
+        {
+          "unit": "540",
+          "status": "available",
+          "available": "2026-07-17",
+          "rentable_sf": 1200,
+          "office_sf": 250,
+          "warehouse_sf": 950,
+          "rate_psf_month": [
+            1.58,
+            1.65
+          ],
+          "nnn_monthly_estimate": null,
+          "total_monthly_low": 2436.0,
+          "total_monthly_high": 2520.0,
+          "layout": "250 SF office suite with 1 private office, reception and restroom (heated & air-conditioned) + ~950 SF warehouse.",
+          "roll_up_door": "1 x 14x12 ft grade-level drive-in",
+          "restroom": null,
+          "parking_spaces": null,
+          "lease_term": "Negotiable",
+          "combinable": null
+        }
+      ]
+    }
+  ]
+}

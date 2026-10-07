@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roundrockpm.com/sitemap.xml
