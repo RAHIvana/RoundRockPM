@@ -39,9 +39,17 @@ def main(src_dir: str, out_dir: str) -> int:
             continue
         text = original = path.read_text(encoding="utf-8")
 
-        # how far this file sits below the output root, e.g. assets/js/x.js -> "../../"
-        depth = len(path.relative_to(out).parts) - 1
-        prefix = "../" * depth
+        # How far this file sits below the output root, e.g. assets/js/x.js -> "../../".
+        #
+        # This applies to HTML only. A URL inside a .js file is resolved against the
+        # PAGE that loaded the script, not against the script's own location, and every
+        # page here lives at the top level — so JavaScript gets no prefix at all.
+        # (If pages are ever added in subfolders, these JS URLs need rethinking.)
+        if path.suffix == ".js":
+            prefix = ""
+        else:
+            depth = len(path.relative_to(out).parts) - 1
+            prefix = "../" * depth
 
         text = text.replace('href="/"', f'href="{prefix}index.html"')
         text = re.sub(r'(href|src)="/(?!/)', rf'\1="{prefix}', text)      # not protocol-relative
