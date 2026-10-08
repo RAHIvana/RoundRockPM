@@ -1,36 +1,27 @@
-# Dependencies
-node_modules/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+credentials*.json
 
 # Build output
+_site/
 dist/
-dist-ssr/
+node_modules/
 
-# Vite cache
-.vite/
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-*.local
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-# Editor directories and files
+# OS / editor noise
 .DS_Store
 Thumbs.db
-.vscode/*
-!.vscode/extensions.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+desktop.ini
+*.swp
+.idea/
+.vscode/
